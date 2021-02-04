@@ -1,0 +1,23 @@
+.titulo {
+    text-align:center; 
+    background-color: green;
+    text-decoration-color: black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited{
+    color: black;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-image: url(imagenes/unioncucuta2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
