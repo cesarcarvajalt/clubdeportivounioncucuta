@@ -109,9 +109,26 @@ td.middle{
         opacity: 1;
     }
 }
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 #informacion{
     align-items: center;
     bottom: 20%;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+#informacion{
+    height: 30px;
+    width: auto;
+}
+
+#varia{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
