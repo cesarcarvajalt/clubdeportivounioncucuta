@@ -1,29 +1,117 @@
-.titulo {
+.titulo{
     text-align:center; 
     background-color: green;
     text-decoration-color: black;
+    white-space: normal;
+    
 }
+
 a:link{
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+
 a:visited{
     color: black;
     cursor: pointer;
 }
+
+.tamaño{
+    font-size: 70%;
+}
+
 p{
     text-align: center;
 }
+
 div{
     text-align: center;
     background-image: url(imagenes/unioncucuta2.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 ul{
     text-align: left;
 }
+
 td.middle{
     vertical-align: middle;
+}
+
+.overlay{
+    background-image: none;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    animation: overlay 1s 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.popup{
+    background-image: none;
+    background-color:rgb(112, 156, 112);
+    height: auto;
+    width: 70%;
+    border: black;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+#cerrar{
+    display: none;
+}
+#cerrar:checked+label,#cerrar:checked~.overlay,#cerrar:checked~#video1{
+    display: none;
+    content: url();
+}
+
+
+#cerrar + label{
+    animation: overlay 1s 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.margen{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+#boton{
+    position: fixed;
+    font-size: 25px;
+    z-index: 50;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 30%;
+    right: 15%;
+    cursor: pointer;
+}
+@keyframes overlay{
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+#informacion{
+    align-items: center;
+    bottom: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
