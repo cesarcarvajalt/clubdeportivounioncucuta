@@ -1,7 +1,7 @@
 var imagenes=new Array(['imagenes/fabio.JPG','imagenes/fabio2.JPG',"ENTRENADOR"],
 ['imagenes/german.JPG','imagenes/german2.JPG',"ENTRENADOR"],
 ['imagenes/tellez.JPG','imagenes/tellez2.JPG',"ENTRENADOR"],
-['imagenes/andelfo.JPG','imagenes/andelfo2.JPG',"PSICOLOGO"],);
+['imagenes/andelfo1.JPG','imagenes/andelfo2.JPG',"PSICOLOGO"],);
 var contador=-1;
  function rotarImagenes(){
      contador++
