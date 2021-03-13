@@ -73,9 +73,9 @@ td.middle{
 #cerrar{
     display: none;
 }
-#cerrar:checked+label,#cerrar:checked~.overlay,#cerrar:checked~#video1{
+#cerrar:checked+label,#cerrar:checked~.overlay{
     display: none;
-    content: url();
+    
 }
 
 
@@ -99,7 +99,19 @@ td.middle{
     height: 20px;
     width: 20px;
     line-height: 20px;
-    border-radius: 30%;
+    border-radius: 50%;
+    right: 15%;
+    cursor: pointer;
+}
+.boton{
+    position: fixed;
+    font-size: 25px;
+    z-index: 50;
+    background-color:red;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
     right: 15%;
     cursor: pointer;
 }
